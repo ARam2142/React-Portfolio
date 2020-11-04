@@ -1,11 +1,12 @@
 import React from "react";
+import portfoliopic from "./portfoliopic.jpeg";
 
 function Container() {
     return (
         <div class="container-lg">
             <div class="row">
                 <div class="col-sm-7">
-                    <img src="assets/img/portfoliopic.jpg" class="rounded mx-auto d-block" width="350" height="320" alt="img-thumbnail" />
+                    <img src={portfoliopic} class="rounded mx-auto d-block" width="300" height="320" alt="img-thumbnail" />
                 </div>
 
                 <div class="col-sm-5">
@@ -16,8 +17,7 @@ function Container() {
                             Since my early days at college, I have always had a high interest in tech or anything related to computers.
                             Aside from work and school, I love traveling, swimming, video games, baseball, and movies.
                             While you are on this page feel free to take a look at my projects that I have designed, they are awesome!
-                            My projects have been designed with HTML, CSS, Bootstrap, Javascript, and JQuery.
-              </p>
+                            My projects have been designed with HTML, CSS, Bootstrap, Javascript, and JQuery.</p>
                         </div>
                     </div>
                 </div>
