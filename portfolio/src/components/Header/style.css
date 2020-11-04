@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+ /*background picture and body*/
+ html, body {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ /* .background {
+     background-image: 
+     linear-gradient(
+     rgba(113, 147, 209, 0.699),
+     rgba(49, 21, 61, 0.39)
+         
+     ),
+     url('img/beach.jpg');
+ }
+ 
+ body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ } */
+ /*end of background picture and body*/
+
+ .header a:hover {
+    color: rgb(58, 21, 58);
+ }
