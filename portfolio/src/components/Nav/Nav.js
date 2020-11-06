@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Nav() {
     return (
-        <nav class="navbar navbar-light" style={{'background-color': '#e3f2fd'}}>
+        <nav class="navbar navbar-light" style={{ 'background-color': '#e3f2fd' }}>
             <span class="nav justify-content-start"><p class="h1 text-secondary"> Andrés Ramírez</p></span>
             <ul class="d-flex nav justify-content-end h4">
                 <li class="nav-item">
-                    <Link to="/home" className={window.location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+                    <Link to="/home" className={window.location.pathname === "home" ? "nav-link active" : "nav-link"}>
                         Home
                     </Link>
                 </li>
@@ -26,4 +26,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Nav;

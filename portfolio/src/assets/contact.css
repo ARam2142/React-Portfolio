@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*body and background picture*/
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: 
+    linear-gradient(
+    rgba(77, 117, 192, 0.699),
+    rgba(49, 21, 61, 0.39)
+
+    ),
+    url('../img/sevillapic.jpeg');
+}
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+/*container*/
+.container {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+h4 a {
+    color: rgba(13, 14, 13, 0.699);
+}
+
+h4 a:hover {
+    color: rgb(134, 14, 80)
+}

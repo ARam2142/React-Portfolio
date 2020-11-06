@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Nav from "../components/Nav/Nav.js";
 import Footer from "../components/Footer/Footer.js";
@@ -7,7 +8,7 @@ function Contact() {
     return (
         <div>
             <Nav />
-            <div class="container">
+            <div class="background container">
                 <h2 class="text-center">Get in touch with me</h2>
                 <h3 class="text-center">Phone-Number: <span>1-978-526-4851</span></h3>
                 <h3 class="text-center">Email: <span>andresaaramirez730@gmail.com</span></h3>
@@ -30,9 +31,9 @@ function Contact() {
                         <div class="form-group col-md-7 d-flex justify-content-between">
                             <button class="btn btn-primary" type="submit">Submit</button>
                             <div class="form">
-                                <a href="https://www.instagram.com/aramirez2142/" target="_blank"><i class="fab fa-instagram-square" style="font-size:60px"></i></a>
-                                <a href="https://github.com/ARam2142" target="_blank"><i class="fab fa-github-square" style="font-size:60px"></i></a>
-                                <a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/" target="_blank"><i class="fab fa-linkedin" style="font-size:60px"></i></a>
+                                <a href="https://www.instagram.com/aramirez2142/" target="_blank" rel="noreferrer"><i class="fab fa-instagram-square" style={{"font-size" : "60px"}}></i></a>
+                                <a href="https://github.com/ARam2142" target="_blank" rel="noreferrer"><i class="fab fa-github-square" style={{"font-size" : "60px"}}></i></a>
+                                <a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" style={{"font-size" : "60px"}}></i></a>
                             </div>
                         </div>
                     </div>
