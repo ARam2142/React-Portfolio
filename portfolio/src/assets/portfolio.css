@@ -9,7 +9,7 @@ html, body {
     width: 100%;
 }
 
-.background {
+.background_page2 {
     background-image: 
     linear-gradient(
     rgba(65, 106, 182, 0.678),
@@ -17,13 +17,17 @@ html, body {
         
     ),
     url('../img/sevillapic.jpeg');
-}
-
-body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 180vh;
 }
+
+/* body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
 
 /*header section*/
 .header a:hover {

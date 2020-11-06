@@ -9,22 +9,26 @@
      width: 100%;
  }
  
- .background {
+ .background_page1 {
      background-image: 
      linear-gradient(
-     rgba(113, 147, 209, 0.699),
-     rgba(49, 21, 61, 0.39)
+         rgba(113, 147, 209, 0.699),
+         rgba(49, 21, 61, 0.39)
          
-     ),
-     url('../img/sevillapic.jpeg');
- }
+         ),
+        url('../img/sevillapic.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 80vh;
+        }
  
- body {
+/* body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
- }
+ } */
  /*end of background picture and body*/
 
  .header a:hover {
