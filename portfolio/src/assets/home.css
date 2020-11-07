@@ -12,8 +12,8 @@
  .background_page1 {
      background-image: 
      linear-gradient(
-         rgba(198, 210, 233, 0.699),
-         rgba(33, 9, 56, 0.39)
+         rgba(116, 42, 8, 0.281),
+         rgba(18, 99, 22, 0.212)
          
          ),
         url('../img/sevillapic.jpeg');
@@ -22,13 +22,7 @@
         background-attachment: fixed;
         height: 90vh;
         }
- 
-/* body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
- } */
+
  /*end of background picture and body*/
 
  .header a:hover {
@@ -38,7 +32,8 @@
  /*end of header section*/
 
  div.card {
-     background-color: rgba(95, 119, 228, 0.767);
+     background-color: rgba(29, 26, 218, 0.801);
+     color: white;
  }
  
  div.row.icons {
