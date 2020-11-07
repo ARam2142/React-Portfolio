@@ -12,15 +12,15 @@ html, body{
 .background_page3 {
     background-image: 
     linear-gradient(
-    rgba(167, 224, 217, 0.699),
-    rgba(66, 14, 88, 0.733)
+    rgba(112, 94, 15, 0.178),
+    rgba(48, 9, 121, 0.24)
 
     ),
     url('../img/sevillapic.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     /*color: whitesmoke;*/
 }
 
@@ -30,10 +30,22 @@ html, body{
     margin-bottom: 90px;
 }
 
-h4 a {
-    color: rgba(13, 14, 13, 0.699);
+h2 {
+    color: white;
+}
+
+h3 {
+    color: whitesmoke
+}
+
+h4 {
+    color: white;
 }
 
 h4 a:hover {
     color: rgb(134, 14, 80)
+}
+
+form {
+    color: white
 }
