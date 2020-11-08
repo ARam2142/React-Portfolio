@@ -9,7 +9,7 @@ html, body {
     width: 100%;
 }
 
-.background_page2 {
+body {
     background-image: 
     linear-gradient(
     rgba(65, 106, 182, 0.678),
@@ -20,7 +20,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 180vh;
+    /* height: 180vh; */
 }
 
 /* body {

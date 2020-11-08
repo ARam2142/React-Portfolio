@@ -9,10 +9,10 @@ html, body{
     width: 100%;
 }
 
-.background_page3 {
+body {
     background-image: 
     linear-gradient(
-    rgba(112, 94, 15, 0.178),
+    rgba(115, 117, 5, 0.651),
     rgba(48, 9, 121, 0.24)
 
     ),
@@ -20,12 +20,11 @@ html, body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 110vh;
     /*color: whitesmoke;*/
 }
 
 /*container*/
-.container {
+.container-lg {
     margin-top: 20px;
     margin-bottom: 90px;
 }
