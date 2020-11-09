@@ -20,14 +20,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* height: 180vh; */
 }
-
-/* body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-} */
 
 /*header section*/
 .header a:hover {

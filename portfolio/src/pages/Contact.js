@@ -3,7 +3,6 @@ import React from "react";
 import Nav from "../components/Nav/Nav.js";
 import Container from "../components/Container/Container.js";
 import Footer from "../components/Footer/Footer.js";
-//import Navigation from "../components/Navigation/nav.js";
 import "../assets/contact.css";
 
 function Contact() {
