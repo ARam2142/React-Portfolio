@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.35c46cbe.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e7ceba67.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e7ceba67.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.4bbec723.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.4bbec723.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/React-Portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.18acb11e.chunk.js": "/React-Portfolio/static/js/2.18acb11e.chunk.js",
+    "static/js/2.18acb11e.chunk.js.map": "/React-Portfolio/static/js/2.18acb11e.chunk.js.map",
+    "static/js/3.6a87273c.chunk.js": "/React-Portfolio/static/js/3.6a87273c.chunk.js",
+    "static/js/3.6a87273c.chunk.js.map": "/React-Portfolio/static/js/3.6a87273c.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/React-Portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.35c46cbe.chunk.css.map": "/React-Portfolio/static/css/main.35c46cbe.chunk.css.map",
+    "static/js/2.18acb11e.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.18acb11e.chunk.js.LICENSE.txt",
+    "static/media/burgerapp.d45865c6.png": "/React-Portfolio/static/media/burgerapp.d45865c6.png",
+    "static/media/cleanhackers.0c23f3ab.png": "/React-Portfolio/static/media/cleanhackers.0c23f3ab.png",
+    "static/media/employeegen.500f4527.png": "/React-Portfolio/static/media/employeegen.500f4527.png",
+    "static/media/flick-the-deck.b9a2bdb1.png": "/React-Portfolio/static/media/flick-the-deck.b9a2bdb1.png",
+    "static/media/mainscreenquiz.224db023.png": "/React-Portfolio/static/media/mainscreenquiz.224db023.png",
+    "static/media/portfoliopic.d9065930.jpeg": "/React-Portfolio/static/media/portfoliopic.d9065930.jpeg",
+    "static/media/contact.css": "/React-Portfolio/static/media/sevillapic.e688b920.jpeg",
+    "static/media/weather.00bf6dd1.png": "/React-Portfolio/static/media/weather.00bf6dd1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bbec723.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.18acb11e.chunk.js",
+    "static/css/main.35c46cbe.chunk.css",
+    "static/js/main.e7ceba67.chunk.js"
+  ]
+}
