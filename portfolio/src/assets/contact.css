@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*body and background picture*/
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: 
+    linear-gradient(
+    rgba(115, 117, 5, 0.651),
+    rgba(48, 9, 121, 0.24)
+
+    ),
+    url('../img/sevillapic.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*color: whitesmoke;*/
+}
+
+/*container*/
+.container {
+    /* margin-top: 20px; */
+    margin-bottom: 90px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: whitesmoke
+}
+
+h4 {
+    color: white;
+}
+
+h4 a:hover {
+    color: rgb(134, 14, 80)
+}
+
+form {
+    color: white
+}

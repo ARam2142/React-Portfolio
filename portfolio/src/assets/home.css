@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+ /*background picture and body*/
+ html, body {
+     height: 100%;
+     width: 100%;
+ }
+
+body {
+     background-image: 
+     linear-gradient(
+         rgba(52, 63, 48, 0.445),
+         rgba(6, 20, 37, 0.212)
+         
+         ),
+        url('../img/sevillapic.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}  
+
+ /*end of background picture and body*/
+
+ .header a:hover {
+    color: rgb(58, 21, 58);
+ }
+
+ /*end of header section*/
+
+ div.row.icons {
+    margin-top: 20px;
+    margin-bottom: 60px; 
+ }
+ 
+.fa-github-square {
+    color: red;
+}
+
+.fa-linkedin {
+    color: red;
+}
+
+.fa-instagram-square {
+    color: red;
+}

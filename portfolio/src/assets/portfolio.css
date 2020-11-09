@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*body and background picture*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: 
+    linear-gradient(
+    rgba(65, 106, 182, 0.678),
+    rgba(64, 35, 83, 0.37)
+        
+    ),
+    url('../img/sevillapic.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*header section*/
+.header a:hover {
+    color:white;
+}
+
+div.row.portfolio {
+    margin-bottom: 60px;
+}
