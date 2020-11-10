@@ -3,7 +3,6 @@ import Nav from "../components/Nav/Nav.js";
 import Footer from "../components/Footer/Footer.js";
 import Container from "../components/Container/Container.js";
 import portfoliopic from "../img/portfoliopic.jpeg";
-//import "../img/sevillapic.jpeg";
 import "../assets/home.css";
 //import Helmet from "react-helmet";
 
@@ -68,13 +67,13 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="row justify-content-center icons">
-                    <div>
+                    <div className="col-sm-1">
                         <a href="https://github.com/ARam2142"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a>
                     </div>
-                    <div>
+                    <div className="col-sm-1">
                         <a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a>
                     </div>
-                    <div>
+                    <div className="col-sm-1">
                         <a href="https://www.instagram.com/aramirez2142/"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a>
                     </div>
                 </div>
