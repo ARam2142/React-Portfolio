@@ -1,27 +1,32 @@
-import React from "react";
+//react and redux components
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer/Footer.js";
-import Container from "./components/Container/Container.js";
-import Nav from "./components/Nav/Nav.js";
+import "./App.css";
+//components
+import Home from "./components/home/Home";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
+import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
+//import Container from "./components/Container/Container.js";
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
-        <Container/>
-        <Footer/>
-      </div>
-    </Router>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router className="content">
+        <div>
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/projects" component={Projects}/>
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

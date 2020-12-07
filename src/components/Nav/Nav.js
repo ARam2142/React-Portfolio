@@ -5,15 +5,18 @@ function Nav() {
     return (
         <nav className="navbar navbar-light" style={{ backgroundColor : '#e3f2fd' }}>
             <span className="nav justify-content-start"><p className="h1 text-secondary"> Andrés Ramírez</p></span>
+            {/* <Link classNam="navbar-brand" to="/">
+                Home
+            </Link> */}
             <ul className="d-flex nav justify-content-end h4">
             <li className="nav-item">
-                    <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                    <Link to="/" className={window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link active" : "nav-link"}>
                         Home
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                        Portfolio
+                    <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+                        Projects
                     </Link>
                 </li>
                 <li className="nav-item">

@@ -16,7 +16,7 @@ body {
     rgba(64, 35, 83, 0.37)
         
     ),
-    url('../img/sevillapic.jpeg');
+    url('../../img/sevillapic.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
