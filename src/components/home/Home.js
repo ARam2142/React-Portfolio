@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-//import Footer from "react-bootstrap/Footer";
 import portfoliopic from "../../img/portfoliopic.jpeg";
 import "./home.css";
 
@@ -48,7 +47,6 @@ class Home extends Component {
                         </div>
                     </div>
                 </Container>
-                {/* <Footer /> */}
 
             </div>
         )
