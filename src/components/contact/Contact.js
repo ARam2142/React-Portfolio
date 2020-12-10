@@ -2,7 +2,8 @@
 import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-//import Footer from "react-bootstrap/Footer";
+// import { Document } from "react-pdf";
+import Resume from "../../resume/webdev_resume.pdf";
 import "./contact.css";
 
 class Contact extends Component {
@@ -14,7 +15,9 @@ class Contact extends Component {
                     <h2 className="text-center">Get in touch with me</h2>
                     <h3 className="text-center">Phone-Number: <span>1-978-526-4851</span></h3>
                     <h3 className="text-center">Email: <span>andresaaramirez730@gmail.com</span></h3>
-                    <h4 className="text-center">Resume:<a href="file:///Users/andresramirez/Downloads/webdev%20resume%20.pdf"></a><span>Web Development Resume</span></h4>
+                    <h4 className="text-center">Resume:
+                    <a href={Resume}><span> Web Development Resume</span></a>
+                    </h4>
 
                     <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
                         <div className="form-row justify-content-center">
