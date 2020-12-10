@@ -7,6 +7,19 @@
   text-decoration: none;
 }
 
+/*icons*/
+.fa-github-square {
+  color: rgba(39, 243, 100, 0.938);
+}
+
+.fa-linkedin {
+  color: rgba(39, 243, 100, 0.938);
+}
+
+.fa-instagram-square {
+  color: rgba(39, 243, 100, 0.938);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
