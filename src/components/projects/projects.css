@@ -33,7 +33,7 @@ h5 a {
 }
 
 h5 a:hover {
-    color: rgb(40, 151, 255);
+    color: rgb(58, 21, 58);
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ p a {
 }
 
 p a:hover {
-    color: rgb(40, 151, 255);
+    color: rgb(58, 21, 58);
     text-decoration: none;
 } 
 
