@@ -9,7 +9,7 @@ html, body{
     width: 100%;
 }
 
-body {
+/* body {
     background-image: 
     linear-gradient(
     rgba(115, 117, 5, 0.651),
@@ -18,10 +18,10 @@ body {
     ),
     url('../../img/sevillapic.jpeg');
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    /*color: whitesmoke;*/
-}
+    background-attachment: fixed;
+    /*color: whitesmoke;
+} */
 
 /*container*/
 .container {

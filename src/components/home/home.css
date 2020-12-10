@@ -9,7 +9,7 @@
      width: 100%;
  }
 
-body {
+/* body {
      background-image: 
      linear-gradient(
          rgba(52, 63, 48, 0.445),
@@ -17,10 +17,10 @@ body {
          
          ),
         url('../../img/sevillapic.jpeg');
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-}  
+}   */
 
  /*end of background picture and body*/
 

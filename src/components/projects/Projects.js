@@ -12,6 +12,7 @@ import cleanhackers from "../../img/cleanhackers.png";
 
 //local css
 import "./projects.css";
+// import "../App.css"
 
 class Projects extends Component {
     render() {

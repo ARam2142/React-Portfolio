@@ -1,11 +1,22 @@
-.App {
-  text-align: center;
-}
-
+/*css code that will be provided throughout the app*/
 * {
   color: white;
   text-decoration: none;
 }
+
+/*background picture*/
+body {
+  background-image: 
+  linear-gradient(
+      rgba(72, 80, 67, 0.445),
+      rgba(6, 20, 37, 0.212)
+      
+      ),
+     url('./img/sevillapic.jpeg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}  
 
 /*icons*/
 .fa-github-square {
@@ -20,37 +31,17 @@
   color: rgba(39, 243, 100, 0.938);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-github-square:hover {
+  color:rgb(58, 21, 58)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fa-instagram-square:hover {
+  color: rgb(58, 21, 58);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fa-linkedin:hover {
+  color: rgb(58, 21, 58);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
