@@ -27,6 +27,26 @@ body {
     color:white;
 }
 
+h5 a {
+    color: white;
+    text-decoration: none;
+}
+
+h5 a:hover {
+    color: rgb(40, 151, 255);
+    text-decoration: none;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(40, 151, 255);
+    text-decoration: none;
+} 
+
 div.row.portfolio {
     margin-bottom: 60px;
 }
