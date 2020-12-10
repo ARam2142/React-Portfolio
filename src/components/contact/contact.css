@@ -42,7 +42,12 @@ h4 {
 }
 
 h4 a:hover {
-    color: rgb(134, 14, 80)
+    color: rgb(144, 241, 79);
+    text-decoration: none;
+}
+
+h4 a {
+    color: rgb(255, 255, 255);
 }
 
 form {
