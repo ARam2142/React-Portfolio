@@ -26,11 +26,11 @@ class Home extends Component {
                             >
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Web Developer</h5>
-                                    <p className="card-text">Hola, My name is Andrés, I am a full stack web development student at the University of New Hampshire.
-                                    Since my early days at college, I have always had a high interest in tech or anything related to computers.
-                                    Aside from work and school, I love traveling, swimming, video games, baseball, and movies.
-                                    While you are on this page feel free to take a look at my projects that I have designed, they are awesome!
-                                    My projects have been designed with HTML, CSS, Bootstrap, Javascript, and JQuery.</p>
+                                    <p className="card-text">Hola, My name is Andrés, I am graduate from the University of New Hampshire Full Stack Coding Boot Camp.
+                                    I have acquired skills in HTML, CSS, Javascript, JQuery, Bootstrap, Node.js, Express, Express Handlebars, MySQL, MongoDB, Mongoose, and React.
+                                    When I am not coding, I like to travel, play video games, and watch movies. While you are here, take a look at my awesome applications that I have created.
+                                    
+                                    </p>
                                 </div>
                             </div>
                         </div>
