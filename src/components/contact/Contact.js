@@ -16,7 +16,7 @@ class Contact extends Component {
                     <h3 className="text-center">Phone-Number: <span>1-978-526-4851</span></h3>
                     <h3 className="text-center">Email: <span>andresaaramirez730@gmail.com</span></h3>
                     <h4 className="text-center">Resume:
-                    <a href={Resume}><span> Web Development Resume</span></a>
+                    <a href={Resume}> Web Development Resume</a>
                     </h4>
 
                     <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
