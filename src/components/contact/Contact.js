@@ -36,15 +36,17 @@ class Contact extends Component {
                             <div className="form-group col-md-7 d-flex justify-content-between">
                                 <button className="btn btn-primary" type="submit">Submit</button>
                                 <div className="form">
-                                    <a href="https://www.instagram.com/aramirez2142/" target="_blank" rel="noreferrer"><i className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a>
-                                    <a href="https://github.com/ARam2142" target="_blank" rel="noreferrer"><i className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a>
-                                    <a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a>
+                                    <ul>
+                                    <li><a href="https://www.instagram.com/aramirez2142/" target="_blank" rel="noreferrer"><i className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
+                                    <li><a href="https://github.com/ARam2142" target="_blank" rel="noreferrer"><i className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </Container>
-                {/* <Footer /> */}
             </div>
         );
     }

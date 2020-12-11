@@ -9,19 +9,6 @@
      width: 100%;
  }
 
-/* body {
-     background-image: 
-     linear-gradient(
-         rgba(52, 63, 48, 0.445),
-         rgba(6, 20, 37, 0.212)
-         
-         ),
-        url('../../img/sevillapic.jpeg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-}   */
-
  /*end of background picture and body*/
 
  .header a:hover {
@@ -52,6 +39,10 @@
    background-color: rgba(39, 243, 100, 0.938);
  }
  
+ .icons-menu ul li a:hover {
+   transform: translate(0, -10px);
+ }
+
  .icons-menu ul li a {
    position: relative;
    display: block;
@@ -62,7 +53,4 @@
    transition: .2s;
  }
  
- .icons-menu ul li a:hover {
-   transform: translate(0, -10px);
- }
  
