@@ -28,10 +28,41 @@
     color: rgb(58, 21, 58);
  }
 
- /*end of header section*/
+ 
+/*pop effect for icons*/
+ div.icons-menu {
+   margin-top: 20px;
+ }
 
- div.row.icons {
-    margin-top: 20px;
-    margin-bottom: 60px; 
+ .icons-menu ul {
+   top: 56%;
+   left: 60%;
+   padding: 0;
+   margin: 0;
+   /* transform: translate(-50%, -50%);  */
+   display: flex;
+ }
+ 
+ .icons-menu ul li {
+   list-style-type: none;
+   margin: 0 15px;
+ }
+ 
+ .icons-menu ul li .fa:hover{
+   background-color: rgba(39, 243, 100, 0.938);
+ }
+ 
+ .icons-menu ul li a {
+   position: relative;
+   display: block;
+   width: 60px;
+   height: 60px;
+   /* border-radius: 50%; */
+   /* background-color: #fff; */
+   transition: .2s;
+ }
+ 
+ .icons-menu ul li a:hover {
+   transform: translate(0, -10px);
  }
  
