@@ -37,17 +37,6 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="row justify-content-center icons-menu">
-                        {/* <div className="col-sm-1">
-                            <a href="https://github.com/ARam2142" className="moduleicon"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a>
-                            </div>
-                            <div className="col-sm-1">
-                            <a href="#"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a>
-                            <a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a>
-                            </div>
-                            <div className="col-sm-1">
-                            <a href="#"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a>
-                            <a href="https://www.instagram.com/aramirez2142/"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a>
-                        </div> */}
                         <ul>
                             <li><a href="https://github.com/ARam2142"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
                             <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
