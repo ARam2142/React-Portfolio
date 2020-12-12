@@ -9,6 +9,7 @@ import quiz from "../../img/mainscreenquiz.png";
 import empgen from "../../img/employeegen.png";
 import burger from "../../img/brown burger.png";
 import cleanhackers from "../../img/cleanhackers.png";
+import ConnectChore from "../../img/connectchore.png"
 
 //local css
 import "./projects.css";
@@ -71,6 +72,15 @@ class Projects extends Component {
                                 <div className="card-body" style={{ backgroundColor: "grey"  }}>
                                     <h5 className="card-title text-center"><a href="https://whispering-castle-57159.herokuapp.com/">Outdoor Adventure Buddies</a></h5>
                                     <p className="card-text text-center"><a href="https://github.com/dylanbest15/Outdoor-Adventure-Buddies">View Code</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col mb-4">
+                            <div className="card">
+                                <img src={ConnectChore} height="250" width="250" className="card-img-top" alt="connectchore" />
+                                <div className="card-body" style={{ backgroundColor: "grey"  }}>
+                                    <h5 className="card-title text-center"><a href="https://connectchore.herokuapp.com">ConnectChore</a></h5>
+                                    <p className="card-text text-center"><a href="https://github.com/ARam2142/ConnectChore">View Code</a></p>
                                 </div>
                             </div>
                         </div>
