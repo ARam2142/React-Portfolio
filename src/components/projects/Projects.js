@@ -7,13 +7,11 @@ import flickthedeck from "../../img/flick-the-deck.png";
 import weather from "../../img/weather.png";
 import quiz from "../../img/mainscreenquiz.png";
 import empgen from "../../img/employeegen.png";
-import burger from "../../img/burgerapp.png";
+import burger from "../../img/brown burger.png";
 import cleanhackers from "../../img/cleanhackers.png";
 
 //local css
 import "./projects.css";
-// import "../App.css"
-
 class Projects extends Component {
     render() {
         return (
