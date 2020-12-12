@@ -4,7 +4,7 @@
 
 This is a new version of my portfolio. It now includes elements of React. Similar to my other versions of my portfolio, Everthing is almost the same with the exception of the background image and profile picture. I plan work on my portfolio a little bit more. Learning React has been quite tough but it is useful. Stay tuned.
 
-# Technologies used:
+# Technologies Used:
 - Bootstrap
 - CSS
 - HTML
