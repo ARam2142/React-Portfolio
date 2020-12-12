@@ -49,9 +49,9 @@ class Home extends Component {
                             <a href="https://www.instagram.com/aramirez2142/"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a>
                         </div> */}
                         <ul>
-                            <li><a href="#"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
-                            <li><a href="#"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
-                            <li><a href="#"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://github.com/ARam2142"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://www.instagram.com/aramirez2142/"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
                         </ul>
 
                     </div>
