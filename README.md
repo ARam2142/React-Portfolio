@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # React-Portfolio
 
 # Background:
@@ -16,6 +17,9 @@ This is a new version of my portfolio. It now includes elements of React. Simila
 ![Screen Shot 2020-12-11 at 10 18 33 PM](https://user-images.githubusercontent.com/65634748/101971389-f7335300-3bfe-11eb-8622-556c4a2e4514.png)
 ![Screen Shot 2020-12-11 at 10 18 47 PM](https://user-images.githubusercontent.com/65634748/101971392-fac6da00-3bfe-11eb-828c-76dbc260e712.png)
 
+# License
+
+This Repository is licensed under MIT
 
 
 # LiveLink
