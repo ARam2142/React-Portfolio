@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.503bcc31.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.772a37ea.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.772a37ea.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.d1b6602b.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4e8d5b23.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4e8d5b23.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba949708.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba949708.js.map",
     "static/css/2.1a02f21c.chunk.css": "/React-Portfolio/static/css/2.1a02f21c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8e949338.chunk.js.map": "/React-Portfolio/static/js/3.8e949338.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/React-Portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.503bcc31.chunk.css.map": "/React-Portfolio/static/css/main.503bcc31.chunk.css.map",
+    "static/css/main.d1b6602b.chunk.css.map": "/React-Portfolio/static/css/main.d1b6602b.chunk.css.map",
     "static/js/2.74185261.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.74185261.chunk.js.LICENSE.txt",
     "static/media/burgerapp.d45865c6.png": "/React-Portfolio/static/media/burgerapp.d45865c6.png",
     "static/media/cleanhackers.0c23f3ab.png": "/React-Portfolio/static/media/cleanhackers.0c23f3ab.png",
@@ -20,14 +20,15 @@
     "static/media/flick-the-deck.b9a2bdb1.png": "/React-Portfolio/static/media/flick-the-deck.b9a2bdb1.png",
     "static/media/mainscreenquiz.224db023.png": "/React-Portfolio/static/media/mainscreenquiz.224db023.png",
     "static/media/portfoliopic.d9065930.jpeg": "/React-Portfolio/static/media/portfoliopic.d9065930.jpeg",
-    "static/media/contact.css": "/React-Portfolio/static/media/sevillapic.e688b920.jpeg",
-    "static/media/weather.00bf6dd1.png": "/React-Portfolio/static/media/weather.00bf6dd1.png"
+    "static/media/App.css": "/React-Portfolio/static/media/sevillapic.e688b920.jpeg",
+    "static/media/weather.00bf6dd1.png": "/React-Portfolio/static/media/weather.00bf6dd1.png",
+    "static/media/webdev_resume.d28f970e.pdf": "/React-Portfolio/static/media/webdev_resume.d28f970e.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.ba949708.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.74185261.chunk.js",
-    "static/css/main.503bcc31.chunk.css",
-    "static/js/main.772a37ea.chunk.js"
+    "static/css/main.d1b6602b.chunk.css",
+    "static/js/main.4e8d5b23.chunk.js"
   ]
 }
