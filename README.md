@@ -14,12 +14,11 @@ HTML
 React JS
 
 # Screenshots
+![Screen Shot 2020-12-11 at 10 06 17 PM](https://user-images.githubusercontent.com/65634748/101971337-b6d3d500-3bfe-11eb-8b9c-a416f923930e.png)
+![Screen Shot 2020-12-11 at 10 18 33 PM](https://user-images.githubusercontent.com/65634748/101971389-f7335300-3bfe-11eb-8622-556c4a2e4514.png)
+![Screen Shot 2020-12-11 at 10 18 47 PM](https://user-images.githubusercontent.com/65634748/101971392-fac6da00-3bfe-11eb-828c-76dbc260e712.png)
 
-![Screen Shot 2020-11-08 at 9 11 02 PM](https://user-images.githubusercontent.com/65634748/98492922-41dc3c80-2207-11eb-9ad2-a3dd61d4ea81.png)
 
-![Screen Shot 2020-11-08 at 9 14 24 PM](https://user-images.githubusercontent.com/65634748/98492992-6df7bd80-2207-11eb-8401-d0844f21be0f.png)
-
-![Screen Shot 2020-11-08 at 9 15 15 PM](https://user-images.githubusercontent.com/65634748/98493070-8ff14000-2207-11eb-9637-b221438bd760.png)
 
 # LiveLink
 https://aram2142.github.io/React-Portfolio/
