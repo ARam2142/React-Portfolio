@@ -12,11 +12,15 @@ class Contact extends Component {
                 <Nav />
                 <Container>
                     <h2 className="text-center">Get in touch with me</h2>
-                    <h3 className="text-center"><i class="fas fa-phone-square" style={{ fontSize: "40px" }}></i> <span>1-978-526-4851</span></h3>
-                    <h3 className="text-center"><i class="fas fa-envelope-open-text" style={{ fontSize: "40px" }}></i>: <span>andresaaramirez730@gmail.com</span></h3>
-                    <h4 className="text-center"><i class="far fa-file" style={{ fontSize: "40px" }}></i>:
-                    <a href={Resume}> Web Development Resume</a>
-                    </h4>
+                    <br></br>
+                    <div className="contactlist" >
+                        <ul className="d-flex justify-content-center">
+                            <li><i className="fas fa-phone-square" style={{ fontSize: "60px" }}></i><p>1-351-444-2871</p></li>
+                            <li><i className="fas fa-envelope-open-text" style={{ fontSize: "60px" }}></i><p>andresaaramirez730@gmail.com</p></li>
+                            <li><i className="far fa-file" style={{ fontSize: "60px" }}></i><p><a href={Resume}> Web Development Resume</a></p></li>
+                        </ul>
+
+                    </div>
 
                     <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
                         <div className="form-row justify-content-center">
