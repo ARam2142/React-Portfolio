@@ -12,9 +12,9 @@ class Contact extends Component {
                 <Nav />
                 <Container>
                     <h2 className="text-center">Get in touch with me</h2>
-                    <h3 className="text-center">Phone-Number: <span>1-978-526-4851</span></h3>
-                    <h3 className="text-center">Email: <span>andresaaramirez730@gmail.com</span></h3>
-                    <h4 className="text-center">Resume:
+                    <h3 className="text-center"><i class="fas fa-phone-square" style={{ fontSize: "40px" }}></i> <span>1-978-526-4851</span></h3>
+                    <h3 className="text-center"><i class="fas fa-envelope-open-text" style={{ fontSize: "40px" }}></i>: <span>andresaaramirez730@gmail.com</span></h3>
+                    <h4 className="text-center"><i class="far fa-file" style={{ fontSize: "40px" }}></i>:
                     <a href={Resume}> Web Development Resume</a>
                     </h4>
 
