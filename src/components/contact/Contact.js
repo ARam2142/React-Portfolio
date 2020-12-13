@@ -29,11 +29,11 @@ class Contact extends Component {
                             </div>
                             <div className="form-group col-md-7">
                                 <label htmlFor="inputPassword4">Email</label>
-                                <input type="password" className="form-control" id="inputPassword4" placeholder="email" />
+                                <input type="password" className="form-control" id="inputPassword4" placeholder="Email" />
                             </div>
                             <div className="form-group col-md-7">
                                 <label htmlFor="exampleFormControlTextarea1">Message</label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type your message"></textarea>
+                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message"></textarea>
                             </div>
                             <div className="form-group col-md-7 d-flex justify-content-between">
                                 {/* <Button variant="primary">Submit</Button> */}
