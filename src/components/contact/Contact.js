@@ -19,7 +19,6 @@ class Contact extends Component {
                             <li><i className="fas fa-envelope-open-text" style={{ fontSize: "60px" }}></i><p>andresaaramirez730@gmail.com</p></li>
                             <li><i className="far fa-file" style={{ fontSize: "60px" }}></i><p><a href={Resume}> Web Development Resume</a></p></li>
                         </ul>
-
                     </div>
 
                     <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
