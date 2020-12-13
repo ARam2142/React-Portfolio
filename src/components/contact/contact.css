@@ -15,8 +15,9 @@ html, body{
     margin-bottom: 90px;
 }
 
-h2 {
+h1 {
     color: white;
+    /* margin-right: 20px; */
 }
 
 /*contact icon buttons*/
@@ -28,7 +29,7 @@ h2 {
 
 .contactlist ul li {
     list-style-type: none;
-    margin: 0 20px;
+    margin: 0 25px;
     text-align: center;
 }
 
