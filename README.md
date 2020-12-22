@@ -14,7 +14,7 @@ This is a new version of my portfolio. It now includes elements of React. Simila
 - React
 
 # Screenshots
-![Screen Shot 2020-12-21 at 11 11 42 PM](https://user-images.githubusercontent.com/65634748/102848756-8b619f00-43e3-11eb-9e76-d424e2dba454.png)
+
 ![Screen Shot 2020-12-21 at 11 12 10 PM](https://user-images.githubusercontent.com/65634748/102848752-8ac90880-43e3-11eb-9b7a-94780856e1fa.png)
 ![Screen Shot 2020-12-21 at 11 12 20 PM](https://user-images.githubusercontent.com/65634748/102848749-88ff4500-43e3-11eb-9041-640789f884b8.png)
 
