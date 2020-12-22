@@ -13,9 +13,9 @@ This is a new version of my portfolio. It now includes elements of React. Simila
 - React
 
 # Screenshots
-![Screen Shot 2020-12-11 at 10 06 17 PM](https://user-images.githubusercontent.com/65634748/101971337-b6d3d500-3bfe-11eb-8b9c-a416f923930e.png)
-![Screen Shot 2020-12-11 at 10 18 33 PM](https://user-images.githubusercontent.com/65634748/101971389-f7335300-3bfe-11eb-8622-556c4a2e4514.png)
-![Screen Shot 2020-12-11 at 10 18 47 PM](https://user-images.githubusercontent.com/65634748/101971392-fac6da00-3bfe-11eb-828c-76dbc260e712.png)
+![Screen Shot 2020-12-21 at 11 11 42 PM](https://user-images.githubusercontent.com/65634748/102848756-8b619f00-43e3-11eb-9e76-d424e2dba454.png)
+![Screen Shot 2020-12-21 at 11 12 10 PM](https://user-images.githubusercontent.com/65634748/102848752-8ac90880-43e3-11eb-9b7a-94780856e1fa.png)
+![Screen Shot 2020-12-21 at 11 12 20 PM](https://user-images.githubusercontent.com/65634748/102848749-88ff4500-43e3-11eb-9041-640789f884b8.png)
 
 # License
 This Repository is licensed under MIT
