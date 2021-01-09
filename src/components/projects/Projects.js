@@ -27,7 +27,7 @@ class Projects extends Component {
                                 <div className="card-body" style={{ backgroundColor: "grey" }}>
                                     <h5 className="card-title text-center"><a href="https://mwoodervin.github.io/Flick-the-Deck/">Flick-the-Deck</a></h5>
                                     <p className="card-text text-center"><a href="https://github.com/ARam2142/Flick-the-Deck">View Code</a></p>
-                                    <p className="card-text text-center">This application will give the user the option to pick a movie of their choice. If your not satisfied with the option given, you may shuffle the deck and pick again.</p>
+                                    <p className="card-text text-center">This application will give the user the option to pick a movie of their choice. If you're not satisfied with the option given, shuffle the deck and pick again.</p>
                                     <p className="card-text text-center">Made with HTML, CSS, Materialize, Javascript and jQuery</p>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ class Projects extends Component {
                                 <div className="card-body" style={{ backgroundColor: "grey"  }}>
                                     <h5 className="card-title text-center"><a href="https://cryptic-shelf-77263.herokuapp.com/">Eat-Da-Burger</a></h5>
                                     <p className="card-text text-center"><a href="https://github.com/ARam2142/Eat-Da-Burger-Node-Handlebars-Application">View Code</a></p>
-                                    <p className="card-text text-center">Eat-Da-Burger is a mock burger menu where users may create their own burgers and then have them eaten.</p>
+                                    <p className="card-text text-center">Eat-Da-Burger is a mock restaruant menu where users make their own burgers and eat them for dinner.</p>
                                     <p className="card-text text-center">Made with HTML, CSS, Javascript, jQuery, Node Express, Express-Handlebars and MySql</p>
                                 </div>
                             </div>
@@ -100,7 +100,9 @@ class Projects extends Component {
                         </div>
                     </div>
                 </Container>
-                {/* <Footer /> */}
+            <br></br>
+            <br></br>
+            <br></br>
             </div>
         )
     }

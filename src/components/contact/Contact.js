@@ -13,8 +13,6 @@ class Contact extends Component {
                 <Container>
                     <h1 className="text-center">Get in touch with me</h1>
                     <br></br>
-
-                    <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
                         <div className="contactlist" >
                             <ul className="d-flex justify-content-center">
                                 <li><i className="fas fa-phone-square" style={{ fontSize: "60px" }}></i><p>1-351-444-2871</p></li>
@@ -22,6 +20,7 @@ class Contact extends Component {
                                 <li><i className="far fa-file" style={{ fontSize: "60px" }}></i><p><a href={Resume}> Web Development Resume</a></p></li>
                             </ul>
                         </div>
+                    <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
                         <div className="form-row justify-content-center">
                             <div className="form-group col-md-7">
                                 <label htmlFor="inputEmail4">Name</label>
@@ -36,7 +35,6 @@ class Contact extends Component {
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message"></textarea>
                             </div>
                             <div className="form-group col-md-7 d-flex justify-content-between">
-                                {/* <Button variant="primary">Submit</Button> */}
                                 <button className="btn btn-primary me-md-2" value="Submit" type="submit">Submit</button>
                                 <div className="social-media">
                                     <ul>
@@ -48,6 +46,9 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                     </form>
                 </Container>
             </div>
