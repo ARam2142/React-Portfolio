@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <nav className="navbar fixed-bottom navbar-dark bg-dark justify-content-center">
                 <span className="navbar-brand footer-font blue align-middle">
-                    Copyright &copy;2020 | Andrés Ramírez</span>
+                    Copyright &copy;2021 | Andrés Ramírez</span>
             </nav>
         )
     }
