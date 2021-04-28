@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React, { useRef } from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import portfoliopic from "../../img/portfoliopic.jpeg";
 import "./home.css";
 
-class Home extends Component {
-    
-    render() {
-        
+
+const Home = () => {
+    const goToLinks = useRef<HTMLDivElement>(null);
         return (
             <div>
                 <Nav />
@@ -38,17 +37,16 @@ class Home extends Component {
                     </div>
                     <div className="row justify-content-center icons-menu">
                         <ul>
-                            <li><a href="https://github.com/ARam2142"><i target="_blank" className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i target="_blank" className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
-                            <li><a href="https://www.instagram.com/aramirez2142/"><i target="_blank" className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://github.com/ARam2142"><i ref={goToLinks} className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i ref={goToLinks} className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
+                            <li><a href="https://www.instagram.com/aramirez2142/"><i ref={goToLinks} className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
                         </ul>
 
                     </div>
                 </Container>
-
             </div>
         )
     }
-}
+
 
 export default Home;
