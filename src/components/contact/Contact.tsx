@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import * as React from "react";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import "./webdev_resume.pdf";
 import "./contact.css";
 
 function Contact() {
@@ -16,7 +15,7 @@ function Contact() {
                     <ul className="d-flex justify-content-center">
                         <li><i className="fas fa-phone-square" style={{ fontSize: "60px" }}></i><p>1-351-444-2871</p></li>
                         <li><i className="fas fa-envelope-open-text" style={{ fontSize: "60px" }}></i><p>andresaaramirez730@gmail.com</p></li>
-                        <li><i className="far fa-file" style={{ fontSize: "60px" }}></i><p><a href={"./webdev_resume.pdf"}> Web Development Resume</a></p></li>
+                        <li><i className="far fa-file" style={{ fontSize: "60px" }}></i><p><a target="_blank" rel="noneferrer" href="https://drive.google.com/file/d/15hVj2gc-AJNOtA-CBQc3mfzmhTghBUr2/view?usp=sharing"> Web Development Resume</a></p></li>
                     </ul>
                 </div>
                 <form action="MAILTO:andresaaramirez730@gmail.com" method="post" encType="text/plain">
