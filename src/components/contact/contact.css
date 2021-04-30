@@ -19,36 +19,33 @@ h1 {
     color: white;
     /* margin-right: 20px; */
 }
-
 /*contact icon buttons*/
-.contactlist ul {
+/* .card-header {
+    height: 130px;
+    position: relative;
+
+    border-style: none;
+    
+}
+
+.card-body {
     padding: 0;
-    margin: 0;
-    display: flex;
+    margin-top: 50px;
 }
 
-.contactlist ul li {
-    list-style-type: none;
-    margin: 0 25px;
-    text-align: center;
+.card-img {
+    position: absolute;
+    margin:  0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px; height: 100px;
+    transform: translateY(50%);
+    box-shadow: 0 0 0 10px #fff;
+    border-radius: 50%;
+    margin-top: 60px;
 }
-
-h4 a:hover {
-    color: rgb(58, 21, 58);
-    text-decoration: none;
-}
-
-h4 a {
-    color: rgb(255, 255, 255);
-}
-
-form {
-    color: white
-}
-
-.social-media ul li .fa:hover {
-    background-color: rgba(39, 243, 100, 0.938);
-}
+*/
 
 .social-media ul li a:hover {
     transform: translate(0, -10px);
