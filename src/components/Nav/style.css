@@ -69,14 +69,15 @@ html, body {
       width: 100%;
    }
 
-   .mobile-menu-icon {
+   button.mobile-menu-icon {
       display: block;
       position: absolute;
       font-size: 30px;
-      color: rgba(241, 235, 235, 0.918);
       top: 15px;
       right: 25px;
       outline: none;
+      border: none;
+      padding: 0 10px 0 10px;
+      border-radius: 10%;
    }
-
 }

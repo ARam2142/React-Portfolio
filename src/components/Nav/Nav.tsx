@@ -25,9 +25,9 @@ function Nav() {
             >
 
                 {mobile ? (
-                    <i className="fas fa-times"></i>
+                    <i className="fas fa-times" style={{"color": 'red'}}></i>
                 ) : (
-                    <i className="fas fa-bars"></i>
+                    <i className="fas fa-bars" style={{"color": 'blue'}}></i>
                 )}
             </button>
         </nav>
