@@ -3,33 +3,89 @@
     margin: 0px;
     padding: 0px;
  }
+
  /*background picture and body*/
- html, body {
-     height: 100%;
-     width: 100%;
- }
- 
- /* .background {
-     background-image: 
-     linear-gradient(
-     rgba(113, 147, 209, 0.699),
-     rgba(49, 21, 61, 0.39)
-         
-     ),
-     url('img/beach.jpg');
- }
- 
- body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
- } */
- /*end of background picture and body*/
+html, body {
+   height: 100%;
+   width: 100%;
+}
 
- .header a:hover {
-    color: rgb(58, 21, 58);
+.navbar {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 75px;
+   background-color: #343a40
+}
+
+.nav-links {
+   display: flex;
+   justify-content: flex-end;
+   font-weight: 300;
+   list-style: none;
+   font-size: 24px;
+}
+
+.home,
+.projects,
+.contact {
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px 20px;
+   padding-top: 10px;
+   margin: 0 10px;
+   cursor: pointer;
  }
 
- a.nav-link:hover {
-    color: rgb(58, 21, 58);
- }
+.mobile-menu-icon {
+   display: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 633px) {
+   h1 {
+      display: flex;
+      position: absolute;
+      top: 15px;
+      left: 35px;
+   }
+
+   .nav-links {
+      display: none;
+   }
+
+   .nav-links-mobile {
+      position:absolute;
+      display: block;
+      list-style: none;
+      background-color: rgb(37, 53, 52);
+      left: 0;
+      top: 75px;
+      width: 100%;
+      transition: all 0.5s ease-out;
+      text-align: center;
+      font-size: 30px;
+   }
+
+   .home,
+   .projects,
+   .contact {
+      color: rgb(245, 245, 245);
+      text-align: center;
+      padding: 32px;
+      transition: all 0.5s ease;
+      width: 100%;
+   }
+
+   .mobile-menu-icon {
+      display: block;
+      position: absolute;
+      font-size: 30px;
+      color: rgba(241, 235, 235, 0.918);
+      border: none;
+      top: 15px;
+      right: 25px;
+      outline: none;
+   }
+
+}
