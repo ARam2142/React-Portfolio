@@ -12,6 +12,7 @@ This is a new version of my portfolio. It has been redesigned with React.
 - HTML
 - Javascript
 - React
+- Typescript
 
 # Screenshots
 

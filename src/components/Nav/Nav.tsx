@@ -1,30 +1,30 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './style.css'
+import './style.css';
 
 function Nav() {
-    const [isMobile, setMobile] = useState(false)
+    const [mobile, setMobile] = useState(false);
     return (
         <nav className="navbar">
             <h1 className="text-light"> Andrés Ramírez</h1>
-            <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
+            <ul className={mobile ? "nav-links-mobile" : "nav-links"}
                 onClick={() => setMobile(false)}
             >
                 <Link to="/home" className={"/home" ? "nav-link active" : "nav-link"}>
-                    <li className="">Home</li>
+                    <li className="list-link">Home</li>
                 </Link>
                 <Link to="/projects" className={"/projects" ? "nav-link active" : "nav-link"}>
-                    <li className="">Projects</li>
+                    <li className="list-link">Projects</li>
                 </Link>
                 <Link to="/contact" className={"/contact" ? "nav-link active" : "nav-link"}>
-                    <li className="">Contact</li>
+                    <li className="list-link">Contact</li>
                 </Link>
             </ul>
             <button className="mobile-menu-icon"
-            onClick={()=> {setMobile(!isMobile)}}
+                onClick={() => { setMobile(!mobile) }}
             >
 
-                {isMobile ? (
+                {mobile ? (
                     <i className="fas fa-times"></i>
                 ) : (
                     <i className="fas fa-bars"></i>
