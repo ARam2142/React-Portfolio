@@ -9,48 +9,14 @@ html, body{
     width: 100%;
 }
 
-/*container*/
-.container {
-    /* margin-top: 20px; */
-    margin-bottom: 90px;
-}
-
 h1 {
     color: white;
     /* margin-right: 20px; */
 }
-/*contact icon buttons*/
-/* .card-header {
-    height: 130px;
-    position: relative;
-
-    border-style: none;
-    
-}
-
-.card-body {
-    padding: 0;
-    margin-top: 50px;
-}
-
-.card-img {
-    position: absolute;
-    margin:  0 auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100px; height: 100px;
-    transform: translateY(50%);
-    box-shadow: 0 0 0 10px #fff;
-    border-radius: 50%;
-    margin-top: 60px;
-}
-*/
 
 .social-media ul li a:hover {
     transform: translate(0, -10px);
 }
-
 .social-media ul li {
     list-style-type: none;
     margin: 0 15px;
@@ -70,4 +36,4 @@ h1 {
     width: 60px;
     height: 60px;
     transition: .2s;
-}
+} 
