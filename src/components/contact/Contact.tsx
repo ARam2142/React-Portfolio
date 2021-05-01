@@ -12,7 +12,7 @@ function Contact() {
         <div>
             <Nav />
             <Container>
-                <h2 className="text-center display-4 text-white">Get in touch with me</h2>
+                <h2 className="text-center display-4 text-white" style={{paddingTop: "20px"}}>Get in touch with me</h2>
 
                 <Card bg="primary" style={{'maxWidth': '28rem', "margin" : 'auto'}}>
                     <Card.Header as="h5">Contact</Card.Header>

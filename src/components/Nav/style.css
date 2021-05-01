@@ -82,7 +82,33 @@ html, body {
    }
 }
 
-@media screen and (min-width: 634px) {
+/* for bigger screens */
+@media (min-width: 634px) {
+   
+   h1 {
+      display: flex;
+      position: absolute;
+      top: 15px;
+      left: 35px;
+   }
+   
+   .mobile-menu-icon {
+      display: none;
+   }
+
+   .nav-links-mobile {
+      display: none;
+   }
+
+   ul.nav-links {
+      list-style: none;
+      font-size: 24px;
+      font-weight: 300;
+      position: absolute;
+      right: 10px;
+      bottom: -5px;
+   }
+
    .navbar {
       display: flex;
       justify-content: space-evenly;
@@ -90,20 +116,6 @@ html, body {
       height: 75px;
       background-color: #343a40
    }
-   
-   .home, .projects, .contact {
-      padding-top: 10px;
-   }
-   
-   .nav-links {
-      display: flex;
-      justify-content: flex-end;
-      font-weight: 300;
-      list-style: none;
-      font-size: 24px;
-   }
-   
-   .mobile-menu-icon {
-      display: none;
-   }
+
+
 }
