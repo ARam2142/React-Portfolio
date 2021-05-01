@@ -36,11 +36,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center icons-menu">
-                        <ul>
+                        {/* <ul>
                             <li><a href="https://github.com/ARam2142"><i ref={goToLinks} className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
                             <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i ref={goToLinks} className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
                             <li><a href="https://www.instagram.com/aramirez2142/"><i ref={goToLinks} className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
-                        </ul>
+                        </ul> */}
 
                     </div>
                 </Container>
