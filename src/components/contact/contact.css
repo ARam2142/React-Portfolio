@@ -9,25 +9,19 @@ html, body{
     width: 100%;
 }
 
-h1 {
-    color: white;
-    /* margin-right: 20px; */
-}
-
 .social-media ul li a:hover {
     transform: translate(0, -10px);
 }
 .social-media ul li {
     list-style-type: none;
-    margin: 0 15px;
+    padding: 0 10px;
 }
 
 .social-media ul {
     display: flex;
     padding: 0;
     position: relative;
-    margin-left: 30px; 
-    transform: translate(7%, 5%); 
+    justify-content: left;
 }
 
 .social-media a {

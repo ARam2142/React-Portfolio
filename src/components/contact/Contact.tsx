@@ -17,7 +17,6 @@ function Contact() {
                 <Card bg="primary" style={{'maxWidth': '28rem', "margin" : 'auto'}}>
                     <Card.Header as="h5">Contact</Card.Header>
                     <Card.Body>
-                        {/* <Card.Title>Special title treatment</Card.Title> */}
                         <Card.Text>
                             Phone: <span>3514442871</span>
                         </Card.Text>
