@@ -18,7 +18,7 @@ function Contact() {
                     <Card.Header as="h5">Contact</Card.Header>
                     <Card.Body>
                         <Card.Text>
-                            Phone: <span>3514442871</span>
+                            Phone: <span>1-351-444-2871</span>
                         </Card.Text>
                         <Card.Text>
                             Email: <span>andresaaramirez730@gmail.com</span>
