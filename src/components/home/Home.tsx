@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import portfoliopic from "../../img/portfoliopic.jpeg";
@@ -6,7 +6,6 @@ import "./home.css";
 
 
 const Home = () => {
-    const goToLinks = useRef<HTMLDivElement>(null);
         return (
             <div>
                 <Nav />

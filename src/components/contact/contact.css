@@ -14,7 +14,7 @@ html, body{
 }
 .social-media ul li {
     list-style-type: none;
-    padding: 0 10px;
+    padding-right: 20px
 }
 
 .social-media ul {
