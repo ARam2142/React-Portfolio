@@ -24,24 +24,31 @@ const Home = () => {
                             >
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Web Developer</h5>
-                                    <p className="card-text">Hola, My name is Andrés, I am graduate from the University of New Hampshire Full Stack Coding Boot Camp.
-                                    I have acquired skills in HTML, CSS, Javascript, JQuery, Bootstrap, Node.js, Express, Express Handlebars, MySQL, sequelize, MongoDB, Mongoose, Typescript and React.
-                                    When I am not coding, I like to travel, play video games, and watch movies. While you are here, take a look at my awesome applications that I have created.
-                                    If you would like to get to know me more feel free to reach out to me.
+                                    <p className="card-text">
+                                    Hola, My name is Andrés, I am graduate from the University of New Hampshire Full Stack Coding Boot Camp.
+                                    I have acquired skills in HTML, CSS, Javascript, JQuery, Bootstrap, Node.js, 
+                                    Express, Express Handlebars, MySQL, sequelize, MongoDB, Mongoose, Typescript and React.
+                                    When I am not coding, I like to travel, play video games, and watch movies. 
+                                    While you are here, take a look at my awesome applications that I have created.
+                                    If you would like to get to know me more, please feel free to reach out to me.
                                     
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center icons-menu">
-                        {/* <ul>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    {/* <div className="row justify-content-center icons-menu">
+                        <ul>
                             <li><a href="https://github.com/ARam2142"><i ref={goToLinks} className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>
                             <li><a href="https://www.linkedin.com/in/andres-ramirez-8b07487b/"><i ref={goToLinks} className="fab fa-linkedin" style={{ fontSize: "60px" }}></i></a></li>
                             <li><a href="https://www.instagram.com/aramirez2142/"><i ref={goToLinks} className="fab fa-instagram-square" style={{ fontSize: "60px" }}></i></a></li>
-                        </ul> */}
+                        </ul>
 
-                    </div>
+                    </div> */}
                 </Container>
             </div>
         )
