@@ -3,7 +3,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import contactPic from "../../img/portfoliopic.jpeg";
 import Card from 'react-bootstrap/Card';
 import "./contact.css";
 
@@ -36,7 +35,7 @@ function Contact() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" rel="noneferrer" href="https://drive.google.com/file/d/15hVj2gc-AJNOtA-CBQc3mfzmhTghBUr2/view?usp=sharing">
+                                        <a target="_blank" rel="noneferrer" href="https://drive.google.com/file/d/1VBcI0io6YjjRP_pwa7Z66E2FSxpM9wfi/view?usp=sharing">
                                             <i className="far fa-file" style={{ fontSize: "40px" }}></i>
                                         </a>
                                     </li>
