@@ -85,7 +85,8 @@ html, body {
    }
 }
 
-/* for bigger screens. Dont think this will work*/
+/* for bigger screens.
+Had to mix up .nav-links-moblie with nav links code*/
 @media screen and (min-width: 634px) {
     h1 {
       display: flex;
