@@ -1,10 +1,10 @@
 # React-Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Image of Start Screen](./src/img/start-screen.png)
+![Screen Shot 2021-05-01 at 11 18 12 PM](https://user-images.githubusercontent.com/65634748/116801016-152d2180-aad4-11eb-9e0b-5efd2af4ead4.png)
 # Background:
 
-This is a new version of my portfolio. It has been redesigned with React.
+This is a new version of my portfolio. It has been redesigned with React and Typescript.
 
 # Technologies Used:
 - Bootstrap
@@ -16,8 +16,8 @@ This is a new version of my portfolio. It has been redesigned with React.
 
 # Screenshots
 
-![Screen Shot 2020-12-21 at 11 12 10 PM](https://user-images.githubusercontent.com/65634748/102848752-8ac90880-43e3-11eb-9b7a-94780856e1fa.png)
-![Screen Shot 2020-12-21 at 11 12 20 PM](https://user-images.githubusercontent.com/65634748/102848749-88ff4500-43e3-11eb-9041-640789f884b8.png)
+![Screen Shot 2021-05-01 at 11 18 21 PM](https://user-images.githubusercontent.com/65634748/116801017-165e4e80-aad4-11eb-8b48-71a809088b2c.png)
+![Screen Shot 2021-05-01 at 11 18 29 PM](https://user-images.githubusercontent.com/65634748/116801019-165e4e80-aad4-11eb-949c-53981085b22f.png)
 
 # License
 This Repository is licensed under MIT
