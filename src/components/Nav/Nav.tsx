@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './style.css';
 
 function Nav() {
     const [mobile, setMobile] = useState(false);
-    
+
+    const handleClick = () => setMobile(!mobile)
+
     return (
         <nav className="navbar">
             <h1 className="text-light"> Andrés Ramírez</h1>
@@ -23,9 +25,8 @@ function Nav() {
                 </Link>
             </ul>
             <button className="mobile-menu-icon"
-                onClick={() => { setMobile(!mobile) }}
+                onClick={handleClick}
             >
-
                 {mobile ? (
                     <i className="fas fa-times" style={{ "color": 'red' }}></i>
                 ) : (
