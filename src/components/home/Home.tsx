@@ -23,7 +23,7 @@ const Home = () => {
                                 }}
                             >
                                 <div className="card-body">
-                                    <h5 className="card-title text-center">Web Developer</h5>
+                                    <p className="card-title text-center">Web Developer</p>
                                     <p className="card-text">
                                     Hola, My name is Andrés, I am graduate from the University of New Hampshire Full Stack Coding Boot Camp.
                                     I have acquired skills in HTML, CSS, Javascript, JQuery, Bootstrap, Node.js, 

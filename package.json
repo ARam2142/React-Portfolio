@@ -5,6 +5,9 @@
   "homepage": "http://ARam2142.github.io/React-Portfolio",
   "dependencies": {
     "-": "0.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@pdftron/webviewer": "^7.3.1",
     "@react-pdf/renderer": "^2.0.8",
     "@testing-library/jest-dom": "^5.11.5",

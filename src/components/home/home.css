@@ -15,6 +15,9 @@
     color: rgb(58, 21, 58);
  }
 
+ p.card-title {
+   font-size: 24px;
+ }
  
 /*pop effect for icons*/
  div.icons-menu {

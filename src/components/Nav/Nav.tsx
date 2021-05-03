@@ -25,6 +25,7 @@ function Nav() {
                 </Link>
             </ul>
             <button className="mobile-menu-icon"
+                aria-label={'open'}
                 onClick={handleClick}
             >
                 {mobile ? (
