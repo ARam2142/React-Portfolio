@@ -1,4 +1,4 @@
-interface IData{ 
+interface IData {
     img: string,
     code: string,
     title: string,

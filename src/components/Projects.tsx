@@ -7,8 +7,8 @@ import "./projects.css";
 
 
 const Projects = () => {
-    const info = ProjectData.map((data, index) => 
-        <ProjectCard key={index} data={data}/>
+    const info = ProjectData.map((data, index) =>
+        <ProjectCard key={index} data={data} />
     );
     return (
         <div>

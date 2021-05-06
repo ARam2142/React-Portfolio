@@ -1,46 +1,17 @@
-import React from "react";
-import Nav from "react-bootstrap/Nav";
+import * as React from "react";
 import Container from "react-bootstrap/Container";
-import portfoliopic from "../../img/portfoliopic.jpeg";
+import Me from './ProfilePic';
+import AboutMe from './AboutMe'
 import "./home.css";
-
 
 const Home = () => {
         return (
             <div>
-                <Nav />
                 <Container>
                     <div className="row">
-                        <div className="col-sm-7">
-                            <img src={portfoliopic} className="rounded mx-auto d-block" width="300" height="320" alt="img-thumbnail" />
-                        </div>
-
-                        <div className="col-sm-5">
-                            <div className="card w-80 mx-auto"
-                                style={{
-                                    backgroundColor: "rgba(29, 26, 218, 0.801)",
-                                    color: 'white'
-                                }}
-                            >
-                                <div className="card-body">
-                                    <p className="card-title text-center">Web Developer</p>
-                                    <p className="card-text">
-                                    Hola, My name is Andrés, I am graduate from the University of New Hampshire Full Stack Coding Boot Camp.
-                                    I have acquired skills in HTML, CSS, Javascript, JQuery, Bootstrap, Node.js, 
-                                    Express, Express Handlebars, MySQL, sequelize, MongoDB, Mongoose, Typescript and React.
-                                    When I am not coding, I like to travel, play video games, and watch movies. 
-                                    While you are here, take a look at my awesome applications that I have created.
-                                    If you would like to get to know me more, please feel free to reach out to me.
-                                    
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <Me />
+                        <AboutMe />
                     </div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
                     {/* <div className="row justify-content-center icons-menu">
                         <ul>
                             <li><a href="https://github.com/ARam2142"><i ref={goToLinks} className="fab fa-github-square" style={{ fontSize: "60px" }}></i></a></li>

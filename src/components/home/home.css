@@ -51,9 +51,10 @@
    display: block;
    width: 60px;
    height: 60px;
-   /* border-radius: 50%; */
-   /* background-color: #fff; */
    transition: .2s;
  }
  
  
+div.col-sm-5 {
+  padding-bottom: 10rem;
+}
