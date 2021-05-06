@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*body and background picture*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/*header section*/
+.header a:hover {
+    color:white;
+}
+
+h5 a {
+    color: white;
+    text-decoration: none;
+}
+
+h5 a:hover {
+    color: rgb(58, 21, 58);
+    text-decoration: none;
+}
+
+div.item {
+    background-color: grey;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(58, 21, 58);
+    text-decoration: none;
+} 
+
+div.row.portfolio {
+    margin-bottom: 60px;
+}
