@@ -1,5 +1,5 @@
 import React from "react";
-import HomeCardInfo from "../../assets/HomeCardInfo"
+import HomeCardInfo from "../../utils/HomeCardInfo"
 
 function AboutMe() {
     return (
