@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import CardSkeleton from './CardSkeleton';
-import "./contact.css";
+import "./Contact.css";
 
 const Contact = () => {
     return (

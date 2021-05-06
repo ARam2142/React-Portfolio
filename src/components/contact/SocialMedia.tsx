@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactData from '../../utils/ContactData';
-import "./contact.css";
+import "./Contact.css";
 
 export default function SocialMedia() {
     return (

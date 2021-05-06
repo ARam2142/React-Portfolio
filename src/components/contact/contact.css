@@ -17,6 +17,10 @@ html, body{
     padding-right: 20px
 }
 
+.social-media {
+    padding-top: 20px;
+}
+
 .social-media ul {
     display: flex;
     padding: 0;

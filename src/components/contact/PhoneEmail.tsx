@@ -1,7 +1,7 @@
 import * as React from "react";
 import Card from 'react-bootstrap/Card';
 import ContactData from '../../utils/ContactData';
-import "./contact.css";
+import "./Contact.css";
 
 export default function ContactCard() {
     return (
