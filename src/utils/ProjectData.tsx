@@ -1,4 +1,4 @@
-import './projects.css';
+//import '../components/projects.css';
 //project pictures
 import flickthedeck from "../img/flick-the-deck.png";
 import weather from "../img/weather.png";
