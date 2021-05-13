@@ -1,5 +1,5 @@
 import * as React from 'react';
-import IData from '../assets/IData';
+import IData from '../../assets/IData';
 import './projects.css';
 
 interface IProps {

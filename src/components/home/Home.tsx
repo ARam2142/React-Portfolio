@@ -1,6 +1,6 @@
 import * as React from "react";
 import Container from "react-bootstrap/Container";
-import Me from './ProfilePic';
+import ProfilePic from './ProfilePic';
 import AboutMe from './AboutMe'
 import "./home.css";
 
@@ -9,7 +9,7 @@ const Home = () => {
             <div>
                 <Container>
                     <div className="row">
-                        <Me />
+                        <ProfilePic />
                         <AboutMe />
                     </div>
                     {/* <div className="row justify-content-center icons-menu">

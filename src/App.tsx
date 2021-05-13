@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 //components
 import Home from "./components/home/Home";
-import Projects from "./components/Projects";
+import Projects from "./components/project/Projects";
 import Contact from "./components/contact/Contact";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";

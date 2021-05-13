@@ -1,6 +1,6 @@
 import * as React from "react";
 import Container from "react-bootstrap/Container";
-import ProjectData from '../utils/ProjectData';
+import ProjectData from '../../utils/ProjectData';
 import ProjectCard from "./ProjectCard";
 //local css
 import "./projects.css";
