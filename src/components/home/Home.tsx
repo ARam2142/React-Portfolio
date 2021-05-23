@@ -1,8 +1,10 @@
-import * as React from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import ProfilePic from './ProfilePic';
 import AboutMe from './AboutMe'
 import "./home.css";
+
+//const ProfilePic = lazy(() => import('./ProfilePic'))
 
 const Home = () => {
         return (
