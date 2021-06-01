@@ -8,6 +8,7 @@ This is a new version of my portfolio. It has been redesigned with React and Typ
 
 # Technologies Used:
 - Bootstrap
+- Bootstrap React
 - CSS
 - HTML
 - Javascript
