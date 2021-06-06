@@ -11,7 +11,7 @@ function Nav() {
         <nav className="navbar">
             <h1 className="text-light"> Andrés Ramírez</h1>
             <ul className={mobile ? "nav-links-mobile" : "nav-links"}
-                onClick={() => 
+                onClick={() =>
                     setMobile(false)}
             >
                 <Link to="/home" className={"/home" ? "nav-link active" : "nav-link"}>
